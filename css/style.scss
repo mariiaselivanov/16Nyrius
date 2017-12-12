@@ -1,0 +1,224 @@
+//sass --trace
+//sass --watch style.scss:style.css
+//cd C:\Users\maseliva\.IntelliJIdea2017.2\config\scratches\16Nurius\css
+
+//$break-small: 320px;
+//$break-large: 1200px;
+
+body {
+//  padding: 2em;
+  margin: auto;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+ // background-position: right top;
+
+
+span {
+  color: darkgray;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  margin: 5px;
+  vertical-align: bottom;
+}
+img {
+  width: 100%;
+}
+.wrap {
+max-width: 965px;
+  margin: auto;
+ @media screen and (max-width: 320px) {
+ width: 200px;
+  }
+//  @media screen and (min-width:1200px ) {
+//    width: 965px;
+//  }
+//  margin: auto;
+}
+//--------------------------HEADER-START--------------------------------
+.logo {
+  width: 130px;
+}
+.topmenu { //top menu
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.toptel {
+  width: 100%;
+  text-align: right;
+}
+.product {
+
+}
+
+.msearch{
+position: relative;
+}
+.searchok{
+  width: 20px;
+  height: 16px;
+  background-image: url(../img/blacktick.jpg);
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subtopmenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lefttopmenu {
+  width: 500px;
+  display: flex;
+  flex-wrap:wrap;
+}
+input[type=text] {
+  background-color: black;
+  color: lightgray;
+  padding-left: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  resize: none;
+}
+.topico {
+display: inline;
+}
+//--------------------------HEADER-END--------------------------------
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+}
+
+.header2 {
+  margin-bottom: 15px;
+  position: relative;
+}
+.textbluebox {
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+  background-color: #1985b7;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.progressbar {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.main {
+ display: flex;
+  justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+}
+.mainleft {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainleft1 {
+  height: 217px;
+  position: relative;
+}
+.textconnect {
+  text-transform: capitalize;
+  //  font-size: 16px;
+  display: inline-block;
+  color: white;
+  background-color: #1985b7;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.mainleft2 {
+    height: 217px;
+    position: relative;
+  }
+.texttake {
+    text-transform: capitalize;
+    display: inline-block;
+    color: white;
+    //  background-color: #1985b7;
+    padding: 5px;
+    position: absolute;
+    bottom: 26px;
+    left: 26px;
+  }
+
+  .maincenter {
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+  }
+.textintro {
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+  background-color: #1985b7;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.mainright {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+.mainright1 {
+  height: 217px;
+  position: relative;
+}
+.textwh {
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+  // background-color: #1985b7;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.mainright2 {
+  height: 217px;
+  position: relative;
+}
+
+.quotetext {
+  text-transform: capitalize;
+  display: inline-block;
+  color: black;
+  // background-color: #1985b7;
+  padding: 5px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+//---------------------End on Main Part----------------------------------
